@@ -2,10 +2,10 @@ import streamlit as st
 
 
 # Get loan details
-money_owed = float(st.write("What is the loan taken, in rupees?"))
-apr = float(st.write("What is annual percentage rate?"))
-payment = float(st.write("How much will you pay every month?"))
-months = int(st.write("How many months do you want to see the results for?"))
+money_owed = float(input("What is the loan taken, in rupees?"))
+apr = float(input("What is annual percentage rate?"))
+payment = float(input("How much will you pay every month?"))
+months = int(input("How many months do you want to see the results for?"))
 
 #Interest per month
 monthly_interest = apr / 100 / 12
