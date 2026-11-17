@@ -1,6 +1,11 @@
 import streamlit as st
 
-st.title("Loan Calculator")
+st.set_page_config(
+    page_title="Dhian's Weather Forecast App",
+)
+
+st.write(
+    f"Calculate the loan you have taken.")
 
 # Get loan details using number_input so empty boxes don't crash the app
 money_owed = st.number_input("What is the loan taken, in rupees?", min_value=0.0)
