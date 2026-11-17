@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.set_page_config(
-    page_title="Dhian's Weather Forecast App",
-)
+st.set_page_config(page_title="Loan Calculator", page_icon="🧮")
+
+st.title("🧮 Loan Calculator")
 
 st.write(
     f"Calculate the loan you have taken.")
